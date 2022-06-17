@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container button {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    width: 7rem;
+    height: 3rem;
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+.container button:hover {
+    filter: brightness(0.7);
+    cursor: pointer;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    font-family: monospace;
+    font-size: 1.5rem;
+    background-color: black;
+    border: 2px solid white;
+    width: 10rem;
+    height: 4rem;
+}
+
+.grid {
+    height: 600px;
+    width: 600px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.grid div img {
+    width: 80%;
+}
